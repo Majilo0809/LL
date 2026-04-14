@@ -1,1 +1,5 @@
+En este ejercicio se trabajó con una gramática que inicialmente presentaba recursividad por la izquierda en el no terminal S. Para poder aplicar correctamente los algoritmos de análisis sintáctico predictivo, se eliminó dicha recursividad utilizando la transformación estándar, introduciendo un nuevo no terminal S'. Esto permitió obtener una gramática equivalente pero adecuada para el análisis.
 
+Los resultados obtenidos muestran que, aunque la recursividad por la izquierda fue eliminada y los conjuntos de primeros y siguiees fueron calculados, la gramática no es LL1. Esto se debe a que existen intersecciones en los conjuntos de predicción, particularmente en el no terminal B, lo que genera ambigüedad al momento de seleccionar una producción con un solo símbolo de entrada. Por lo tanto, no es posible construir un analizador sintáctico predictivo determinista para esta gramática sin realizar transformaciones adicionales.
+
+<img width="758" height="624" alt="image" src="https://github.com/user-attachments/assets/f3445ce5-f7a8-43fb-8d0f-41b6421d63cd" />
