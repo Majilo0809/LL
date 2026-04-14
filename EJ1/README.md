@@ -20,5 +20,7 @@ Por lo tanto, la gramática no es LL(1).
 
 ## ASDR
 <img width="803" height="45" alt="image" src="https://github.com/user-attachments/assets/0076aaf5-dc35-4724-9ec1-ae52f7c66f9b" />
+
 - Tokens = ["dos", "cuatro", "cinco", "tres", "$"]
+
 El ASDR implementado permite validar cadenas de entrada siguiendo la estructura de la gramática transformada. Sin embargo, debido a que la gramática no es LL(1), pueden existir ambigüedades en la selección de producciones, por lo que el analizador puede no comportarse de manera determinista en todos los casos
